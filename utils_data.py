@@ -2,12 +2,13 @@ import string
 import nltk
 import numpy as np
 
+
 def lowercase(text):
     return text.lower()
 
 
 def punctuation_removal(text):
-    translator = str.maketrans(", ", string.punctuation)
+    translator = str.maketrans('', '', string.punctuation)
     return text.translate(translator)
 
 
