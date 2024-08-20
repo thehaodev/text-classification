@@ -3,7 +3,6 @@
 - Introduction
 - Installation
 - Usage example
-- Demo
 ## Introduction
 This repository build an demo of text classification use Naive Bayes algorithm. 
 
@@ -24,8 +23,10 @@ pip install -r requirements.txt
 ```
 ## Usage example
 In function run() at main.py we put text to predict that text is spam or ham.
+
 This is example result
-![image](https://github.com/user-attachments/assets/22af58d1-0e49-4c3d-9be4-321f513a60b1)
+![image](https://github.com/user-attachments/assets/6ce1252f-3195-476a-bf63-081a5b1a1b0e)
+
 
 Note: This is sample demo so it's not have UI yet. I will update later. 
 
